@@ -7,10 +7,10 @@ import mysql.connector
 
 def start_db():
     my_db = mysql.connector.connect(
-      host="172.18.0.3",
-      user="root",
-      password="segredo",
-      database="projetoquara"
+      host="thh2lzgakldp794r.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+      user="cqvqzm2i3e1a7v11",
+      password="fw6q0gex6nwfxie4",
+      database="opu1ysh7dog4b9k3"
     )
 
     return my_db
