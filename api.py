@@ -4,6 +4,7 @@ from flask_restful import Resource, Api
 from enviar_email import send_email
 from reservar_quadra import verify_availability
 
+
 app = Flask(__name__)
 api = Api(app)
 
