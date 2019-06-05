@@ -1,1 +1,1 @@
-web: python3 api.py 5002
+web: python3 api.py

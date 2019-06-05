@@ -35,4 +35,4 @@ api.add_resource(SendEmail, '/email')
 api.add_resource(VerifyAvailability, '/reserve')
 
 if __name__ == '__main__':
-    app.run(port=5002)
+    app.run()
